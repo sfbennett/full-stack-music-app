@@ -24,7 +24,7 @@ Desktop:
 
 ![Desktop2](public/musicapp2.png)
 
-## Technologies used
+## Tools and Technologies
 
 - React + Vite
 - JSX
