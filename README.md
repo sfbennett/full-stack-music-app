@@ -20,9 +20,9 @@ This full-stack music app includes:
 
 Desktop:
 
-![Desktop1](public/musicapp1.png){width=250px}
+![Desktop1](public/musicapp1.png)
 
-![Desktop2](public/musicapp2.png){width=250px}
+![Desktop2](public/musicapp2.png)
 
 Mobile:
 
