@@ -48,6 +48,7 @@ const Albums = () => {
           src={album.album_art_url}
           width="120px"
           className={styles.artwork}
+          alt={album.name}
         />
       </div>
       <button onClick={fetchRandomAlbum} className={styles.button}>
