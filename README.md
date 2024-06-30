@@ -26,9 +26,7 @@ Desktop:
 
 Mobile:
 
-![Mobile1](public/mobile1.png){width=100px}
-
-![Mobile2](public/mobile2.png){width=100px}
+![Mobile1](public/mobile1.png)
 
 ## Technologies used
 
