@@ -5,13 +5,23 @@
 }
 
 .info {
-  padding: 8px 12px 8px 15px;
+  padding: 8px 12px 15px 15px;
   border-radius: 8px;
   width: 300px;
   background: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-family: "VT323", monospace;
   font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.artwork {
+  border-radius: 2px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.genre {
+  margin-bottom: 25px;
 }
 
 .button {
@@ -25,15 +35,33 @@
   background-color: #f9f9f9;
   cursor: pointer;
   transition: border-color 0.25s;
-  margin-top: 18px;
   width: 140px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .button:hover {
   border: 2px solid #666666;
 }
-.button:focus,
-.button:focus-visible {
-  outline: 4px auto #666666;
+
+.button:active {
+  border: 2px solid #a6b1e1;
+}
+
+.link {
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 5px 10px 5px 10px;
+  border: 2px solid #1ed760;
+  color: #666666;
+}
+
+.link:hover {
+  background: #1ed760;
+  color: white;
+}
+
+.link:active {
+  border: 2px solid #666666;
 }
 
 /* Form Styling */
@@ -42,10 +70,11 @@
   text-align: center;
   font-family: "Press Start 2P", system-ui;
   font-size: 18px;
+  margin-top: 10px;
 }
 
 .form {
-  padding: 20px 0px 20px 0px;
+  padding: 20px 10px 10px 10px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -53,10 +82,10 @@
   align-items: center;
   background: white;
   font-family: "VT323", monospace;
-  margin-bottom: 50px;
   font-size: 20px;
   width: 320px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 15px;
 }
 
 .input {
@@ -68,12 +97,17 @@
   font-size: 18px;
 }
 
+.heading {
+  margin-top: 10px;
+}
+
 .label {
   padding: 5px;
 }
 
 .message {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
+  margin-top: 15px;
 }
 
 /* Desktop Styling */

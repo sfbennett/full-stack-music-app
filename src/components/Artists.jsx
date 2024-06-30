@@ -39,9 +39,14 @@ const Artists = () => {
   return (
     <div className={styles.randomcard}>
       <div className={styles.info}>
-        <p>Artist Name: {artist.name}</p>
+        <h2 className={styles.heading}>Artist Generator</h2>
+        <p>Name: {artist.name}</p>
         <p>Bio: {artist.bio}</p>
-        <p>Genre: {artist.genre}</p>
+        <p className={styles.genre}>Genre: {artist.genre}</p>
+        {/* <img src="./public/spotify.png" width="20px" /> */}
+        <a href={artist.spotify_link} className={styles.link}>
+          Spotify
+        </a>
       </div>
       <button onClick={fetchRandomArtist} className={styles.button}>
         Random Artist
