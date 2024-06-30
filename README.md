@@ -36,6 +36,4 @@ Desktop:
 - HTTP Requests, Middleware, Route handlers
 - SQL
 - PostgreqSQL
-- Netlify
-- Render
 - Supabase
