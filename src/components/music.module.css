@@ -1,0 +1,100 @@
+.randomcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  padding: 8px 12px 8px 15px;
+  border-radius: 8px;
+  width: 300px;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: "VT323", monospace;
+  font-size: 18px;
+}
+
+.button {
+  border-radius: 8px;
+  border: 2px solid #a6b1e1;
+  padding: 8px 12px 8px 12px;
+  font-size: 20px;
+  font-family: "VT323", monospace;
+  font-weight: 500;
+  /* font-family: "Press Start 2P", system-ui; */
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-top: 18px;
+  width: 140px;
+}
+.button:hover {
+  border: 2px solid #666666;
+}
+.button:focus,
+.button:focus-visible {
+  outline: 4px auto #666666;
+}
+
+/* Form Styling */
+
+.formtitle {
+  text-align: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 18px;
+}
+
+.form {
+  padding: 20px 0px 20px 0px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-family: "VT323", monospace;
+  margin-bottom: 50px;
+  font-size: 20px;
+  width: 320px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input {
+  margin: 10px 5px 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #a6b1e1;
+  padding: 2px;
+  width: 300px;
+  font-size: 18px;
+}
+
+.label {
+  padding: 5px;
+}
+
+.message {
+  margin-bottom: 0px;
+}
+
+/* Desktop Styling */
+
+@media (min-width: 768px) {
+  .info {
+    width: 325px;
+  }
+
+  .input {
+    width: 200px;
+  }
+
+  .label {
+    padding: 5px;
+    text-align: right;
+    width: 280px;
+    margin-right: 40px;
+  }
+
+  .form {
+    width: 350px;
+  }
+}

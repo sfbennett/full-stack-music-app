@@ -1,0 +1,42 @@
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(
+    to bottom right,
+    #a8edea 0%,
+    #dcd6f7 50%,
+    #fed6e3 100%
+  );
+  /* background: #dcd6f7; */
+  min-height: 100%;
+}
+
+/* Mobile Styling */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.title {
+  /* font-family: "Russo One", sans-serif; */
+  font-size: 35px;
+  font-family: "Press Start 2P", system-ui;
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
+
+/* Desktop Styling */
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 50px;
+  }
+}
