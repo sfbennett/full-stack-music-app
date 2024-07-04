@@ -10,6 +10,15 @@ This full-stack music app includes:
 - A music API created using Node.js and Express.js
 - A PostgreSQL database created using Postbird
 
+## Installation
+
+```sh
+git clone https://github.com/yourusername/full-stack-music-app.git
+cd full-stack-music-app
+npm install
+
+```
+
 ## Hosting
 
 - The React frontend is hosted using Netlify
@@ -18,7 +27,7 @@ This full-stack music app includes:
 
 ## Screenshots
 
-Desktop:
+### Desktop:
 
 ![Desktop1](public/musicapp1.png)
 
@@ -35,5 +44,6 @@ Desktop:
 - Render
 - HTTP Requests, Middleware, Route handlers
 - SQL
+- Postbird
 - PostgreqSQL
 - Supabase
